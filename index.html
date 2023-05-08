@@ -31,7 +31,59 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        #################
+        <table>
+          <tr>
+            <img src="./images/classification-of-triangles-1621331800.png" alt="Triangle" />
+            <th>
+              <h3>what cind of triangles do you have</h3>
+            </th>
+          </tr>
+        </table>
+        <h5>Please enter info! :</h5>
+        <!--Numeric Numberfield-->
+        <from action="#">
+          <p>Side A:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__iput"
+              type="number"
+              id="length-a"
+            />
+          </div>
+        </from>
+        <!--Numeric Numberfield-->
+        <from action="#">
+          <p>Side B:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__iput"
+              type="number"
+              id="length-b"
+            />
+          </div>
+        </from>
+        <!--Numeric Numberfield-->
+        <from action="#">
+          <p>Side C:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__iput"
+              type="number"
+              id="length-c"
+            />
+          </div>
+        </from>
+        <br />
+        <!--Raised button with ripple-->
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="myButtonClicked()"
+        >
+          get tringale
+        </button>
+        <br />
+        <div id="answer">
+        </div>
       </main>
     </div>
   </body>
